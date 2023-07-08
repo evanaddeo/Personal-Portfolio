@@ -5,9 +5,17 @@ function About() {
     return(
         <div id="About">
             <div>
-                <h1>About Me</h1>
+                <div className="sectionHeaderAb">
+                    <span>
+                        <hr className="leftLineAb"></hr>
+                    </span>
+                    <h1 id="topTitleAb">About Me</h1>
+                    <span>
+                        <hr className="rightLineAb"></hr>
+                    </span>
+                </div>
                 <p>
-                    I am a senior at the University of Texas at Austin studying Computer Science. I am interested in software engineering, web development, and data science. I am currently looking for a full-time position starting in May 2022.
+                    About about me me me me about about me about me.
                 </p>
             </div>
             <div>

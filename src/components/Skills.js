@@ -7,8 +7,14 @@ import SkillTag from "./SkillTag";
 function Skills() {
     return (
         <div id="Skills">
-            <div>
-                <h1>Skills</h1>
+            <div className="sectionHeaderSkills">
+                <span>
+                    <hr className="leftLineSkills"></hr>
+                </span>
+                <h1 id="topTitleSkills">My Skills</h1>
+                <span>
+                    <hr className="rightLineSkills"></hr>
+                </span>
             </div>
             <div className="skillType">
             <img className="typePics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />

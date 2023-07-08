@@ -1,5 +1,6 @@
 #Projects {
     width: 100%;
+    margin-top: 100px;
 }
 
 .container {
@@ -21,15 +22,23 @@
 }
 
 .projPics {
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 170px;
     border-radius: 10px;
     align-self: center;
+    margin-bottom: 20px;
+}
+
+.projTitle {
+    color: white;
+    margin-bottom: 2px;
 }
 
 h5 {
     margin: 0px;
     padding: 0px;
+    margin-bottom: 15px;
+    color: rgb(69, 135, 242);
 }
 
 .projSkills {
@@ -38,4 +47,35 @@ h5 {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#topTitleProj{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: .2px;
+    font-size: 35px;
+}
+
+.sectionHeaderProj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.rightLineProj {
+    width: 6vw;
+    margin: 9px 0px 0px 25px;
+    color: rgb(69, 135, 242);
+}
+
+.leftLineProj {
+    width: 42vw;
+    margin: 9px 25px 0px 0px;
+    color: rgb(69, 135, 242);
+}
+
+p {
+    color: white;
 }

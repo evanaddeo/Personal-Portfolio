@@ -4,13 +4,13 @@
 }
 
 #ProfileLinks {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
 }
 
 #GHLink {
-    width: 33px;
-    height: 33px;
+    width: 2.4vw;
+    height: 2.4vw;
     background-color: white;
     overflow: hidden;
     border-radius: 7px;

@@ -15,21 +15,21 @@
 }
 
 #profilePic {
-    width: 200px;
-    height: 210px;
+    width: 14.2vw;
+    height: 15vw;
     border-radius: 20%;
 }
 
 #name {
     color: white;
-    font-size: 55px;
+    font-size: 4vw;
     margin-bottom: 0px;
     text-shadow: -2px 2px 4px rgba(52, 183, 253, 0.982);
 }
 
 #occupation {
     color: rgb(69, 135, 242);
-    font-size: 27px;
+    font-size: 2vw;
     margin-bottom: 70px;
     margin-top: 15px;
     

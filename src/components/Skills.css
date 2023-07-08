@@ -1,3 +1,7 @@
+#Skills {
+    margin-top: 100px;
+}
+
 .skillType {
     display: flex;
     flex-direction: row;
@@ -22,4 +26,30 @@
 
 .content {
     margin-left: 15px;
+}
+
+#topTitleSkills {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: .2px;
+    font-size: 35px;
+}
+
+.sectionHeaderSkills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.rightLineSkills {
+    width: 42vw;
+    margin: 9px 0px 0px 25px;
+    color: rgb(69, 135, 242);
+}
+
+.leftLineSkills {
+    width: 5vw;
+    margin: 9px 25px 0px 0px;
+    color: rgb(69, 135, 242);
 }

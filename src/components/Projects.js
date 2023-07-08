@@ -8,13 +8,19 @@ import SkillTag from "./SkillTag";
 function Projects() {
     return (
         <div id="Projects">
-            <div>
-                <h1>Projects</h1>
+            <div className="sectionHeaderProj">
+                <span>
+                    <hr className="leftLineProj"></hr>
+                </span>
+                <h1 id="topTitleProj">Projects</h1>
+                <span>
+                    <hr className="rightLineProj"></hr>
+                </span>
             </div>
             <div className="container">
                 <div className="projContainer">
                     <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
-                    <h2>DawgByte Fitness</h2>
+                    <h2 className="projTitle">DawgByte Fitness</h2>
                     <h5>React Native - JavaScript</h5>
                     <p>I did this, this, this, this, this, this, and this</p>
                     <div className="projSkills">
@@ -27,8 +33,8 @@ function Projects() {
                     </div>
                 </div>
                 <div className="projContainer">
-                    <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
-                    <h2>iTunes Clone</h2>
+                    <img className="projPics" src="https://media.istockphoto.com/id/1093110112/photo/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure.jpg?s=612x612&w=0&k=20&c=lpQ1sQI49bYbTp9WQ_EfVltAqSP1DXg0Ia7APTjjxz4=" alt="project screenshot" />
+                    <h2 className="projTitle">iTunes Clone</h2>
                     <h5>Java - JavaFX</h5>
                     <p>I did this, this, this, this, this, this, and this</p>
                     <div className="projSkills">
@@ -41,8 +47,8 @@ function Projects() {
                     </div>
                 </div>
                 <div className="projContainer">
-                    <img className="projPics" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="project screenshot" />
-                    <h2>All About Evan</h2>
+                    <img className="projPics" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg" alt="project screenshot" />
+                    <h2 className="projTitle">All About Evan</h2>
                     <h5>React - JavaScript</h5>
                     <p>I did this, this, this, this, this, this, and this</p>
                     <div className="projSkills">

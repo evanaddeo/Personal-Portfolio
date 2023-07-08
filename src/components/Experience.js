@@ -7,8 +7,14 @@ import ACMLogo from "../images/ACMLogo.jpg";
 function Experience() {
     return (
         <div id="Experience">
-            <div>
-                <h1>Work Experience</h1>
+            <div className="sectionHeader">
+                <span>
+                    <hr className="leftLine"></hr>
+                </span>
+                <h1 id="topTitle">Work Experience</h1>
+                <span>
+                    <hr className="rightLine"></hr>
+                </span>
             </div>
             <div className="job">
                 <img className="companyLogo" src={ ADPLogo } alt="pic" />

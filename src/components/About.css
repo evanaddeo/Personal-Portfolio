@@ -1,0 +1,29 @@
+#About {
+    margin-top: 100px;
+}
+
+#topTitleAb {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: .2px;
+    font-size: 35px;
+}
+
+.sectionHeaderAb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.rightLineAb {
+    width: 5.5vw;
+    margin: 9px 0px 0px 25px;
+    color: rgb(69, 135, 242);
+}
+
+.leftLineAb {
+    width: 40.5vw;
+    margin: 9px 25px 0px 0px;
+    color: rgb(69, 135, 242);
+}

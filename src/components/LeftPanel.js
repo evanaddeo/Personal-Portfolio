@@ -79,11 +79,11 @@ function LeftPanel() {
       <h3 id="occupation">Software Engineer</h3>
 
       <div id="education" style={{marginRight: "5px"}}>
-        <img id ="logo" src={avatarImage} alt="avatar"/>
+        {/* <img id ="logo" src={avatarImage} alt="avatar"/> */}
         <span id="school"> The University of Georgia</span>
       </div>
       <div id="education">
-        <img id ="logo" src={imgCounter} alt="avatar"/>
+        {/* <img id ="logo" src={imgCounter} alt="avatar"/> */}
         <span id="school">Morehead Honors College</span>
       </div>
 
