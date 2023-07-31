@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
 }
 
 .dates {
@@ -63,18 +64,21 @@ h3 {
     padding: 0px;
     color: rgb(69, 135, 242);
     font-size: 17px;
+    font-family: 'Lato', sans-serif;
 }
 
 h4 {
-    margin: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
     font-size: 14.5px;
     color: white;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .description {
     margin: 15px 0px 5px 0px;
     font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 p {

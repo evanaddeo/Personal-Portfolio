@@ -5,40 +5,77 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     width: 98%;
     padding: 5px 5px 5px 0px;
 }
 .projContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex: 1;
     justify-content: flex-start;
     width: 30%;
     height: 100%;
-    background-color: rgba(255, 255, 255, .1);
-    padding: 15px 2px 15px 10px;
+    
     border-radius: 15px;
+    width: 98%;
+    margin: 0px 0px 15px 0px;
+}
+
+.projContent {
+    display: flex;
+    flex-direction: column;
+    padding: 23px 21px 25px 25px;
 }
 
 .projPics {
     width: 250px;
     height: 170px;
-    border-radius: 10px;
+    border-radius: 15px;
     align-self: center;
     margin-bottom: 20px;
 }
 
 .projTitle {
-    color: white;
     margin-bottom: 2px;
+    font-size: 27px;
+    margin-top: 2px;
+    margin-left: 1%;
+}
+
+br {
+    margin-bottom: 10px;
+}
+
+.projContainer:hover .projTitle {
+    background: linear-gradient(
+	to right,
+	#f3b634 0,
+    #f1bc6d 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#a37615 100%
+	);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projContainer:hover {
+    border: 3px solid transparent;
+    margin: -3px -3px 12px -3px;
+    background-color: rgba(69, 135, 242, 0.158);
 }
 
 h5 {
-    margin: 0px;
+    margin: 0%;
     padding: 0px;
     margin-bottom: 15px;
     color: rgb(69, 135, 242);
+    font-size: 17px;
+    margin-left: 1%;
 }
 
 .projSkills {
@@ -79,4 +116,6 @@ h5 {
 
 p {
     color: white;
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
 }

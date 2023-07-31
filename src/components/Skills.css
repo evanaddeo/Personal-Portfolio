@@ -1,5 +1,5 @@
 #Skills {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .skillType {
@@ -67,12 +67,58 @@
     border-radius: 15px;
 }
 
+#CCP:hover {
+    background-color: rgba(92, 148, 239, 0.046);
+}
+
+@keyframes slideGradient {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#CCP:hover #CCPText {
+    background: linear-gradient(
+	to right,
+	#dea529 0,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#a37615 100%
+	);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: slideGradient 2s; /* Apply the animation on hover */
+}
+
+@keyframes slideGradient {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
 #CCPBadge {
     width: 40px;
     height: 40px;
 }
 
 #CCPText {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     font-size: 17px;
 }

@@ -1,14 +1,10 @@
 import "./LeftPanel.css"
 import React, { useState } from 'react';
-import {useNavigate} from "react-router-dom";
-import {Button} from "react-bootstrap";
 
-import avatarImage from '../images/avatar1.jpg';
 import avatarImage2 from '../images/avatar2.jpg';
 import picImage1 from "../images/picture1.JPG";
 import picImage2 from "../images/picture2.jpg";
 import picImage3 from "../images/picture3.jpg";
-import picImage4 from "../images/picture4.jpg";
 
 import ProfileLinks from './ProfileLinks';
 import LILogo from "../images/LI.png";
@@ -79,14 +75,7 @@ function LeftPanel() {
       <h1 id="name">Evan Addeo</h1>
       <h3 id="occupation">Software Engineer</h3>
 
-      <div id="education" style={{marginRight: "5px"}}>
-        {/* <img id ="logo" src={avatarImage} alt="avatar"/> */}
-        <span id="school"> The University of Georgia</span>
-      </div>
-      <div id="education">
-        {/* <img id ="logo" src={imgCounter} alt="avatar"/> */}
-        <span id="school">Morehead Honors College</span>
-      </div>
+      <p id="traits">Problem Solver <span className="del">|</span> Active Learner &nbsp;&nbsp;<br></br> Natural Leader <span className="del">|</span> Tech Enthusiast <br></br> &nbsp;&nbsp;&nbsp;&nbsp;Self Starter <span className="del">|</span> Team Oriented</p>
 
       <ProfileLinks url='https://www.linkedin.com/in/evanaddeo/' img={LILogo}/>
       
