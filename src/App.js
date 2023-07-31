@@ -1,33 +1,30 @@
-import LeftPanel from './components/LeftPanel';
-import RightPanel from './components/RightPanel';
-import './App.css';
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from './components/Home';
+import Contact from "./components/Resume"
 
 function App() {
   return (
-    <div id="App">
-
-      <LeftPanel/>
-
-      <RightPanel/>
-
-    </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
+// background-image: linear-gradient(
+// 	to right,
+// 	#dea529 0,
+//     #cb9b51 22%, 
+// 	#f6e27a 45%,
+// 	#f6f2c0 50%,
+// 	#f6e27a 55%,
+// 	#cb9b51 78%,
+// 	#a37615 100%
+// 	);
+//     color:transparent;
+//     -webkit-background-clip:text;

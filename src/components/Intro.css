@@ -3,12 +3,8 @@
     margin-left: 40px;
 }
 
-.intro__content {
-
-}
-
 .intro__title {
-    font-size: 110px;
+    font-size: 7.7vw;
     padding: 0px;
     margin: 0px;
     line-height: .8;
@@ -21,7 +17,7 @@
 }
 
 #headerTag {
-    font-size: 27px;
+    font-size: 2vw;
     margin: 30px 0px 20px 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
@@ -30,29 +26,56 @@
 }
 
 .highlight {
-    font-size: 30px;
+    font-size: 2vw;
     color: rgb(69, 135, 242);
     letter-spacing: .5px;
 }
 
 .intro__description {
-    margin: 0px;
+    margin: 0px 50px 0px 0px;
     padding: 0px;
-    font-size: 17px;
+    font-size: 1.18vw;
     font-family: 'Nunito Sans', sans-serif;
     color: white;
 }
 
 .intro__button {
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
+    width: 7vw;
+    height: 2vw;
+    font-size: 1.05vw;
     margin-top: 20px;
-    background-color: rgb(69, 135, 242);
+    background: rgb(69, 135, 242);
+    cursor: pointer;
     border-width: 0px;
     border-radius: 5px;
     font-weight: 500;
+    position: relative;
+    overflow: hidden;
 }
 
+.intro__button:hover {
+    background: linear-gradient(
+	to right,
+	#dea529 0,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#a37615 100%
+	);
+    background-size: 200% 100%;
+    animation: slideGradient 2s; /* Apply the animation on hover */
+}
 
-
+@keyframes slideGradient {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

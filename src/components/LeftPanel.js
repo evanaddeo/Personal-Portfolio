@@ -1,6 +1,7 @@
 import "./LeftPanel.css"
-import SkillTag from './SkillTag';
 import React, { useState } from 'react';
+import {useNavigate} from "react-router-dom";
+import {Button} from "react-bootstrap";
 
 import avatarImage from '../images/avatar1.jpg';
 import avatarImage2 from '../images/avatar2.jpg';
@@ -9,7 +10,6 @@ import picImage2 from "../images/picture2.jpg";
 import picImage3 from "../images/picture3.jpg";
 import picImage4 from "../images/picture4.jpg";
 
-import { motion } from 'framer-motion';
 import ProfileLinks from './ProfileLinks';
 import LILogo from "../images/LI.png";
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -19,8 +19,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 library.add(faAngleLeft, faAngleRight);
 
 function LeftPanel() {
-  const images = [picImage1, picImage2, picImage3, picImage4, avatarImage, avatarImage2]
+  const images = [avatarImage2, picImage3, picImage1, picImage2]
   const [imgCounter, setImgCounter] = useState(0);
+
 
   // side = 0 for left, 1 for right
   const switchImg = (side) => {

@@ -1,6 +1,4 @@
 #RightPanel {
-    background-color: rgb(41, 44, 64);
-    background: linear-gradient(to bottom, rgb(41, 44, 64), rgb(19, 20, 33));
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -12,18 +10,15 @@
     overflow-y: auto;
     margin-left: 30.5%;
     padding-left: 60px;
-    background: 
-    linear-gradient(90deg,#0000 33%,rgba(54, 65, 106, 0.14) 50%,#0000 66%)
-    rgb(41, 44, 64);
-  background-size:300% 100%;
-  animation: shine 2s;
+    background:rgba(20, 20, 22, 0.75);
+    background-size:300% 100%;
+    z-index: 5;
 }
 
-@keyframes shine {
-    0% {
-      background-position: right;    
-    }
-    /*100% {
-      background-position: left; it's the default value, no need to define it
-    }*/
-  }
+#wrapper {
+  flex: 1 1 auto;
+  position: fixed;
+  z-index:10;
+  background: inherit;
+  margin-left: 30.5%;
+}

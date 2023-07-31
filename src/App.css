@@ -1,5 +1,5 @@
 #App {
   display: flex;
-  background-color: #121212;
+  background: linear-gradient(to bottom, rgb(28, 30, 35), rgb(44, 117, 225));
   min-height: 100vh;
 }

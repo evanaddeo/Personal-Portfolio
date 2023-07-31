@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Skills from './Skills';
 import About from './About';
+import Header from './Header';
 
 function RightPanel() {
   const elementRef = useRef(null);
@@ -24,13 +25,15 @@ function RightPanel() {
   }, []);
 
   return (
-    <div ref={elementRef} id="RightPanel">
-      <Intro/>
-      <Experience/>
-      <Projects/>
-      <Skills/>
-      <About/>
-    </div>
+    <>
+      <div ref={elementRef} id="RightPanel">
+        <Intro/>
+        <Experience/>
+        <Projects/>
+        <Skills/>
+        <About/>
+      </div>
+      </>
   );
 }
 

@@ -1,0 +1,6 @@
+#App {
+    display: flex;
+    background: url("https://images6.alphacoders.com/519/519732.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}

@@ -8,12 +8,30 @@
     height: 4vw;
 }
 
+#CVLink {
+    width: 2.4vw;
+    height: 2.4vw;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+#EmailLink {
+    width: 2.4vw;
+    height: 2.4vw;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 7px;
+    margin-right: 1.1vw;
+}
+
 #GHLink {
     width: 2.4vw;
     height: 2.4vw;
     background-color: white;
     overflow: hidden;
     border-radius: 7px;
+    margin-right: 1.1vw;
 }
 
 #container {

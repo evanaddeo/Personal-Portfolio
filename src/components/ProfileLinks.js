@@ -11,6 +11,14 @@ const ProfileLinks = () => {
     const handleGH = () => {
         window.open('https://github.com/evanaddeo', '_blank');
     };
+
+    const handleCV = () => {
+        window.open('https://www.linkedin.com/in/evanaddeo/', '_blank');
+    };
+
+      const handleEmail = () => {
+        window.location = 'mailto:evanmaddeo@gmail.com';
+    };
   
     const imageVariants = {
         initial: {
@@ -25,8 +33,8 @@ const ProfileLinks = () => {
     
       return (
         <div id="container">
-            <span class="line" style={{marginRight: "5%"}}>
-                <hr style={{color: "rgb(10, 83, 201)"}}></hr>
+            <span class="line" style={{marginRight: "2%"}}>
+                <hr style={{color: "rgb(69, 135, 242)"}}></hr>
             </span>
             <motion.div
                 initial="initial"
@@ -52,8 +60,32 @@ const ProfileLinks = () => {
                 alt="GitHub"
             />
             </motion.div>
-            <span class="line" style={{marginLeft: "5%"}}>
-                <hr style={{color: "rgb(10, 83, 201)"}}></hr>
+            <motion.div
+                initial="initial"
+                whileHover="hovered"
+                variants={imageVariants}
+            >
+            <img
+                onClick={handleEmail}
+                id = "EmailLink"
+                src="https://static-00.iconduck.com/assets.00/gmail-icon-256x256-lp4z4kz6.png"
+                alt="Email"
+            />
+            </motion.div>
+            <motion.div
+                initial="initial"
+                whileHover="hovered"
+                variants={imageVariants}
+            >
+            <img
+                onClick={handleCV}
+                id = "CVLink"
+                src="https://www.freeiconspng.com/uploads/resume-icon-png-9.png"
+                alt="Resume"
+            />
+            </motion.div>
+            <span class="line" style={{marginLeft: "2%"}}>
+                <hr style={{color: "rgb(69, 135, 242)"}}></hr>
             </span>
         </div>
       );

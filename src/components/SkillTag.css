@@ -1,24 +1,60 @@
 img {
-    width: 13px;
-    height: 13px;
+    width: 17px;
+    height: 17px;
     margin-right: 5px;
     border-radius: 50%;
 }
 
 span {
-    color: white;
+    color: rgb(202, 223, 249);
     padding-bottom: 1.5px;
 }
 
 #elem {
-    font-size: 12px;
+    font-size: 13px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 5px 5px 0px 0px;
     border: 2px solid rgb(42, 111, 222);
-    padding: 2px 8px 2px 8px;
+    padding: 4px 10px 4px 10px;
     background-color: transparent;
-    border-radius: 15px;
+    border-radius: 35px;
+}
+
+#elem:hover {
+    cursor: pointer;
+    background: linear-gradient(
+	to right,
+	#dea529 0,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#a37615 100%
+	);
+    font-size: 14px;
+    padding: 5px 12px 5px 12px;
+    margin: 4px 3px -2px -1px;
+    background-size: 200% 100%;
+    border: 2px solid transparent;
+    animation: slideGradient 2s; /* Apply the animation on hover */
+}
+
+@keyframes slideGradient {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#elem:hover span {
+    color:black;
 }

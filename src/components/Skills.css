@@ -8,7 +8,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .projSkills {
@@ -19,9 +19,10 @@
     flex-wrap: wrap;
 }
 
-.typePics {
-    width: 30px;
-    height: 30px;
+.icons {
+   color: rgb(69, 135, 242);
+   align-self: flex-start;
+   margin-top: .8%;
 }
 
 .content {
@@ -40,6 +41,7 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .rightLineSkills {
@@ -52,4 +54,25 @@
     width: 5vw;
     margin: 9px 25px 0px 0px;
     color: rgb(69, 135, 242);
+}
+
+#CCP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1vw;
+    margin-top: 4vw;
+    background-color: rgba(69, 135, 242, 0.158);
+    padding: 7px 0px 7px 0px;
+    border-radius: 15px;
+}
+
+#CCPBadge {
+    width: 40px;
+    height: 40px;
+}
+
+#CCPText {
+    margin-bottom: 5px;
+    font-size: 17px;
 }
