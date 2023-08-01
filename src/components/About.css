@@ -57,10 +57,17 @@
     padding-right: 6vw;
 }
 
+#para {
+    font-size: 1.1vw;
+}
+
 .aboutPics {
     width: 12vw;
     height: 12vw;
     margin: 0% 5% 5% 0%;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(69, 135, 242);
+    border-right: 2px solid rgb(69, 135, 242);
 }
 
 #connect{

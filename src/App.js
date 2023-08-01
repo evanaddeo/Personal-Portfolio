@@ -1,14 +1,14 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from './components/Home';
-import Contact from "./components/Resume"
+import Resume from "./components/Resume"
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Resume" element={<Resume />} />
       </Routes>
     </Router>
   );

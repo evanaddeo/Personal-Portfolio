@@ -5,7 +5,6 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Skills from './Skills';
 import About from './About';
-import Header from './Header';
 
 function RightPanel() {
   const elementRef = useRef(null);

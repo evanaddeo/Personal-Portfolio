@@ -2,8 +2,14 @@ import { motion } from 'framer-motion';
 import LILogo from "../images/LI.png";
 import Github from "../images/github.png";
 import "./ProfileLinks.css";
+import { useNavigate } from 'react-router-dom';
+
+
 
 const ProfileLinks = () => {
+
+    const navigate = useNavigate();
+    
     const handleLI = () => {
       window.open('https://www.linkedin.com/in/evanaddeo/', '_blank');
     };
@@ -13,7 +19,7 @@ const ProfileLinks = () => {
     };
 
     const handleCV = () => {
-        window.open('https://www.linkedin.com/in/evanaddeo/', '_blank');
+        navigate('/Resume');
     };
 
       const handleEmail = () => {
