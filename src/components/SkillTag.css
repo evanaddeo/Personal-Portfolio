@@ -23,6 +23,7 @@ span {
     border-radius: 35px;
 }
 
+
 #elem:hover {
     cursor: pointer;
     background: linear-gradient(

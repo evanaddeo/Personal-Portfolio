@@ -32,7 +32,7 @@ const ProfileLinks = () => {
           opacity: 1,
         },
         hovered: {
-          scale: 1.2,
+          scale: 1.3,
           opacity: 0.8,
         },
       };
