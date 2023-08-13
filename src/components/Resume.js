@@ -30,7 +30,7 @@ function Resume() {
                     <button className="download" onClick={downloadPDF}>Download PDF</button>
                     <button className="download" onClick={downloadDocx}>Download .DOCX</button>
                 </div>
-                <img id="resumePic" src="./images/resume2.png" alt="Resume" />
+                <img id="resumePic" src="./images/resume88.png" alt="Resume" />
             </div>
             
         </div>
